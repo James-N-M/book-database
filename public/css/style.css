@@ -1,0 +1,105 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, white, whitesmoke);
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+#main {
+
+}
+
+#nav-bar {
+    display: flex;
+    height: 50px;
+    box-shadow: 0 7px 10px -10px grey;
+    padding-bottom: 5px;
+}
+
+#nav-bar-left {
+    display: flex;
+    flex: 2;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#nav-bar-right {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav-bar li {
+    list-style-type: none;
+    font-size: 36px;
+}
+
+.container {
+    width: 95vw;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.page-header {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.genre-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.genre-section-list {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.genre-section-list-book {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-right: 40px;
+    height: 260px;
+    width: 220px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-box {
+    display: flex;
+    width: 400px;
+    height: 40px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-box-label {
+    font-size: 28px;
+}
+
+.input-box-input {
+    height: 26px;
+    width: 150px;
+}
+
+.btn-medium {
+    margin: 20px;
+    padding: 15px;
+    font-size: 22px;
+    border: 1px solid blue;
+}
