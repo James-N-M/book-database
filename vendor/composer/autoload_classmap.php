@@ -6,7 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App' => $baseDir . '/core/App.php',
     'Book' => $baseDir . '/src/Models/Book.php',
+    'BookController' => $baseDir . '/src/Controllers/BookController.php',
     'BookInterface' => $baseDir . '/src/Models/BookInterface.php',
     'BookMapper' => $baseDir . '/src/Models/BookMapper.php',
     'BookMapperInterface' => $baseDir . '/src/Models/BookMapperInterface.php',

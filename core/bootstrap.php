@@ -1,9 +1,10 @@
 <?php
 require 'helpers.php'; // add what ever helpers to the application
-$app = [];
 
-$app['config'] = require 'config.php';
+App::bind('config', require 'config.php');
 
-$app['database'] = Connection::make($app['config']['database']);
+App::bind('database',
+    Connection::make(App::get('config')['database'])
+);
 
 

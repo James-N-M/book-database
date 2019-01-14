@@ -1,5 +1,8 @@
 <?php
 
+// Routes to figure out how to get working
+$router->get('books', 'BookController@index');
+
 // GET Routes
 $router->get('', 'src/Controllers/index.php');
 $router->get('insert-book', 'src/Controllers/insert-book.php');

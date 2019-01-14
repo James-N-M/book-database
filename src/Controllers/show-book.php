@@ -2,12 +2,10 @@
 
 $bookId = $_GET['book'];
 
-$bookMapper = new BookMapper($app['database']);
+$bookMapper = new BookMapper(App::get('database'));
 
 $book = new Book();
 
 $book = $bookMapper->findById($bookId);
-
-dd($book);
 
 include 'views/show-book.view.php';

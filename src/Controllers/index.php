@@ -1,6 +1,6 @@
 <?php
 
-$bookMapper = new BookMapper($app['database']);
+$bookMapper = new BookMapper(App::get('database'));
 $booksGroupedByGenres = $bookMapper->getBooksGroupedByGenres();
 
 include 'views/partials/header.view.php';
