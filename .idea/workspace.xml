@@ -3,10 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="e686385f-1817-40af-a01f-0198bbe55f7e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/helpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/program-common.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/program-common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/search-book.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/search-book.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/header.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/header.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/BookController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/delete-book-process.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/edit-book.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/insert-book-process.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/insert-book.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/show-book.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/update-book.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,23 +32,25 @@
         <counts>
           <entry key="project.closed" value="19" />
           <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="6" />
           <entry key="project.open.time.7" value="5" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Request" value="1" />
           <entry key="css" value="9" />
+          <entry key="gitignore" value="2" />
           <entry key="html" value="2" />
           <entry key="js" value="1" />
           <entry key="json" value="10" />
-          <entry key="php" value="276" />
+          <entry key="php" value="298" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -48,17 +59,19 @@
           <entry key="HTML" value="2" />
           <entry key="JSON" value="10" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="277" />
+          <entry key="PHP" value="299" />
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="1656" />
           <entry key="dummy" value="18" />
+          <entry key="gitignore" value="6" />
           <entry key="html" value="77" />
-          <entry key="js" value="276" />
+          <entry key="js" value="278" />
           <entry key="json" value="64" />
-          <entry key="php" value="18383" />
+          <entry key="php" value="19850" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -66,9 +79,9 @@
           <entry key="CSS" value="1656" />
           <entry key="HTML" value="77" />
           <entry key="JSON" value="64" />
-          <entry key="JavaScript" value="276" />
-          <entry key="PHP" value="18351" />
-          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="JavaScript" value="278" />
+          <entry key="PHP" value="19818" />
+          <entry key="PLAIN_TEXT" value="24" />
           <entry key="SQL" value="32" />
         </counts>
       </usages-collector>
@@ -82,73 +95,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controllers/show-book.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controllers/search-book.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/search-book.view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="6" column="78" lean-forward="true" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/partials/header.view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/partials/footer.view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+            <state relative-caret-position="510">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/js/program-common.js">
+        <entry file="file://$PROJECT_DIR$/src/Controllers/BookController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="649">
+              <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.php">
+        <entry file="file://$PROJECT_DIR$/src/Models/BookMapper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            <state relative-caret-position="717">
+              <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/show-book.view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -181,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Views/wishlist-book.view.php" />
         <option value="$PROJECT_DIR$/database/Connection.php" />
         <option value="$PROJECT_DIR$/database/QueryBuilder.php" />
         <option value="$PROJECT_DIR$/bootstrap.php" />
@@ -204,7 +180,6 @@
         <option value="$PROJECT_DIR$/src/Models/Book.php" />
         <option value="$PROJECT_DIR$/src/Models/BookInterface.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/views/book-list.view.php" />
         <option value="$PROJECT_DIR$/src/Models/BookMapper.php" />
         <option value="$PROJECT_DIR$/delete-book.php" />
@@ -216,22 +191,24 @@
         <option value="$PROJECT_DIR$/core/bootstrap.php" />
         <option value="$PROJECT_DIR$/src/Controllers/delete-book-process.php" />
         <option value="$PROJECT_DIR$/src/Controllers/edit-book.php" />
-        <option value="$PROJECT_DIR$/src/Controllers/index.php" />
         <option value="$PROJECT_DIR$/src/Controllers/insert-book-process.php" />
         <option value="$PROJECT_DIR$/src/Controllers/update-book.php" />
         <option value="$PROJECT_DIR$/core/Request.php" />
-        <option value="$PROJECT_DIR$/src/Controllers/BookController.php" />
-        <option value="$PROJECT_DIR$/core/Router.php" />
-        <option value="$PROJECT_DIR$/helpers.php" />
         <option value="$PROJECT_DIR$/src/Controllers/show-book.php" />
         <option value="$PROJECT_DIR$/views/partials/header.view.php" />
-        <option value="$PROJECT_DIR$/routes.php" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/src/Controllers/search-book.php" />
         <option value="$PROJECT_DIR$/views/partials/footer.view.php" />
         <option value="$PROJECT_DIR$/views/search-book.view.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/public/js/program-common.js" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/Controllers/index.php" />
+        <option value="$PROJECT_DIR$/core/Router.php" />
+        <option value="$PROJECT_DIR$/helpers.php" />
+        <option value="$PROJECT_DIR$/routes.php" />
+        <option value="$PROJECT_DIR$/src/Controllers/BookController.php" />
       </list>
     </option>
   </component>
@@ -252,11 +229,11 @@
       <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1499" />
-    <option name="y" value="203" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="527" />
+    <option name="y" value="23" />
+    <option name="width" value="1393" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -266,7 +243,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -277,23 +253,34 @@
             <path>
               <item name="book-database" type="b2602c69:ProjectViewProjectNode" />
               <item name="book-database" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="book-database" type="b2602c69:ProjectViewProjectNode" />
               <item name="book-database" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book-database" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book-database" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book-database" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book-database" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="header&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/views/partials/header.view.php&#10;style.css&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/public/css/style.css&#10;route&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/routes.php&#10;header.view&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/views/partials/header.view.php&#10;style.&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/public/css/style.css&#10;style.c&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/public/css/style.css&#10;views/&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/views&#10;direct&#9;null&#9;null&#10;show&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/views/show-book.view.php&#10;book-list.&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/views/book-list.view.php&#10;show-book&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/views/show-book.view.php&#10;bootstrap&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/core/bootstrap.php&#10;Book&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/src/Models/BookInterface.php&#10;Book.php&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/src/Models/Book.php&#10;BookInt&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/src/Models/BookInterface.php&#10;composer&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/composer.json&#10;composer.json&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/composer.json&#10;styl&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/public/css/style.css&#10;index.php&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/src/Controllers/index.php&#10;classma&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/vendor/composer/autoload_classmap.php&#10;show-&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/src/Views/show-book.view.php&#10;book-li&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/src/Views/book-list.view.php&#10;edit-&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/src/Views/edit-book-form.view.php&#10;add-book&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/src/Views/add-book-form.view.php&#10;head&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/src/Views/partials/header.view.php&#10;BookMapper&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/src/Models/BookMapper.php&#10;BookInter&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/src/Models/BookInterface.php" />
+    <property name="SearchEverywhereHistoryKey" value="routes&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/routes.php&#10;helpers&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/helpers.php&#10;show-book&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/views/show-book.view.php&#10;helpers.php&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/helpers.php&#10;.gitig&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/.gitignore&#10;index.php&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/index.php&#10;BookCon&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/src/Controllers/BookController.php&#10;class&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/vendor/composer/autoload_classmap.php&#10;Router&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/core/Router.php&#10;header&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/views/partials/header.view.php&#10;style.css&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/public/css/style.css&#10;route&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/routes.php&#10;header.view&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/views/partials/header.view.php&#10;style.&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/public/css/style.css&#10;style.c&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/public/css/style.css&#10;views/&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/views&#10;direct&#9;null&#9;null&#10;show&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/views/show-book.view.php&#10;book-list.&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/views/book-list.view.php&#10;bootstrap&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/core/bootstrap.php&#10;Book&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/src/Models/BookInterface.php&#10;Book.php&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/src/Models/Book.php&#10;BookInt&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/src/Models/BookInterface.php&#10;composer&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/composer.json&#10;composer.json&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/composer.json&#10;styl&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/public/css/style.css&#10;classma&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/vendor/composer/autoload_classmap.php&#10;show-&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/src/Views/show-book.view.php&#10;book-li&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/src/Views/book-list.view.php&#10;edit-&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/src/Views/edit-book-form.view.php&#10;add-book&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/src/Views/add-book-form.view.php&#10;head&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/src/Views/partials/header.view.php&#10;BookMapper&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/src/Models/BookMapper.php&#10;BookInter&#9;FILE&#9;file:///Users/jamesm/Documents/roadmap-projects/book-database/src/Models/BookInterface.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -370,11 +357,12 @@
       <workItem from="1547257726269" duration="11281000" />
       <workItem from="1547426068425" duration="4457000" />
       <workItem from="1547516267952" duration="4049000" />
+      <workItem from="1547593864410" duration="4952000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82109000" />
+    <option name="totallyTimeSpent" value="87061000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -386,10 +374,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1432" y="203" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27753934" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20021299" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897383" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34406438" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32897383" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49866667" weight="0.2585513" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50133336" side_tool="true" weight="0.2977867" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16027689" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -404,27 +413,6 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49866667" weight="0.29778934" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50133336" side_tool="true" weight="0.2977867" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26323318" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.41972187" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -545,122 +533,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/BookMapper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/insert-book-process.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/edit-book.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/delete-book-process.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/update-book.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/App.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_classmap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/BookController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/show-book.view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/Router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="36" column="47" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/show-book.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
           <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -671,17 +547,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/insert-book.php">
+    <entry file="file://$PROJECT_DIR$/public/js/program-common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/search-book.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        <state relative-caret-position="340">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -695,28 +564,154 @@
     <entry file="file://$PROJECT_DIR$/views/partials/footer.view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/header.view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/search-book.view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="6" column="78" lean-forward="true" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="78" />
+          <caret line="6" column="78" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/program-common.js">
+    <entry file="file://$PROJECT_DIR$/src/Controllers/search-book.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="136">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/header.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_classmap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="10" column="67" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/show-book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/App.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/edit-book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/insert-book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/insert-book-process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" selection-start-line="2" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/delete-book-process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/update-book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="2" selection-start-line="2" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/show-book.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/BookMapper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/BookController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
         </state>
       </provider>
     </entry>

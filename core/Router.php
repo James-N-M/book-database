@@ -2,10 +2,6 @@
 
 class Router
 {
-    // TODO: update to have a array of routes with a GET key
-    // TODO: update to have a array of routes with a POST key
-    // 'GET' => /list-books
-    // 'POST => /insert-book POST variable would have data in it
     protected $routes = [
         'GET' => [],
         'POST' => []
@@ -31,10 +27,9 @@ class Router
     public function direct($uri, $requestMethod)
     {
         if(array_key_exists($uri, $this->routes[$requestMethod])) {
-//            return $this->callAction(
-//              ...explode('@', $this->routes[$requestMethod][$uri])
-//            );
-            return $this->routes[$requestMethod][$uri];
+            return $this->callAction(
+              ...explode('@', $this->routes[$requestMethod][$uri])
+            );
         }
 
         throw new Exception('No route defined for this URI.');
@@ -42,7 +37,6 @@ class Router
 
     protected function callAction($controller, $action)
     {
-        $controller = "$controller";
         $controller = new $controller;
 
         if(! method_exists($controller, $action)) {
@@ -51,6 +45,8 @@ class Router
             );
         }
 
-        return $controller->action();
+        if($response = call_user_func_array([$controller, $action], $params = [])) {
+            echo $response;
+        }
     }
 }

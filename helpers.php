@@ -14,3 +14,11 @@ function view($name, $data = [])
 
     return require "views/{$name}.view.php";
 }
+
+// Redirect to a url with a code
+// Temporary redirect 302 submitting a form, 301 permanent
+function redirect($url, $defaultCode = 302)
+{
+    header('Location: ' . $url, true, $defaultCode);
+    exit();
+}

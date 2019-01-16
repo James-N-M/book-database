@@ -3,8 +3,8 @@ function helloWorld() {
 }
 
 function searchBooks() {
-    $(document).ready(function(){
-        $.get("test.php", function(data, status){
+    $(document).ready(function() {
+        $.get("test.php", function(data, status) {
             alert("Data:" + data + status);
         });
     });
