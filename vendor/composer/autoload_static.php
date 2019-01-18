@@ -8,11 +8,12 @@ class ComposerStaticInita520f2c8a54119d113878c168aa2c95c
 {
     public static $classMap = array (
         'App' => __DIR__ . '/../..' . '/core/App.php',
-        'Book' => __DIR__ . '/../..' . '/src/Models/Book.php',
-        'BookController' => __DIR__ . '/../..' . '/src/Controllers/BookController.php',
-        'BookInterface' => __DIR__ . '/../..' . '/src/Models/BookInterface.php',
-        'BookMapper' => __DIR__ . '/../..' . '/src/Models/BookMapper.php',
-        'BookMapperInterface' => __DIR__ . '/../..' . '/src/Models/BookMapperInterface.php',
+        'Book' => __DIR__ . '/../..' . '/app/Models/Book.php',
+        'BookController' => __DIR__ . '/../..' . '/app/Controllers/BookController.php',
+        'BookInterface' => __DIR__ . '/../..' . '/app/Models/BookInterface.php',
+        'BookMapper' => __DIR__ . '/../..' . '/app/Models/BookMapper.php',
+        'BookMapperInterface' => __DIR__ . '/../..' . '/app/Models/BookMapperInterface.php',
+        'BookSearchController' => __DIR__ . '/../..' . '/app/Controllers/BookSearchController.php',
         'ComposerAutoloaderInita520f2c8a54119d113878c168aa2c95c' => __DIR__ . '/..' . '/composer/autoload_real.php',
         'Composer\\Autoload\\ClassLoader' => __DIR__ . '/..' . '/composer/ClassLoader.php',
         'Composer\\Autoload\\ComposerStaticInita520f2c8a54119d113878c168aa2c95c' => __DIR__ . '/..' . '/composer/autoload_static.php',

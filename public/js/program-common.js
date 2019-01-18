@@ -2,10 +2,8 @@ function helloWorld() {
     console.log("Hello World !");
 }
 
-function searchBooks() {
-    $(document).ready(function() {
-        $.get("test.php", function(data, status) {
-            alert("Data:" + data + status);
-        });
+function searchBooks(query) {
+    $.get("/search-book?q=" + query, function(data) {
+        document.getElementById('book-search-results').innerHTML = data;
     });
 }

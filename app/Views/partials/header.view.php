@@ -20,7 +20,7 @@
             </div>
             <div id="nav-bar-right">
                 <a href="insert-book"><li id="nav-bar-add-button"><i class="fas fa-plus"></i></li></a>
-                <a href="search-book"><li id="nav-bar-search"><i class="fas fa-search"></i></li></a>
+                <a href="search"><li id="nav-bar-search"><i class="fas fa-search"></i></li></a>
             </div>
         </ul>
     </nav>

@@ -1,6 +1,6 @@
 <?php
 
-class Book implements BookInterface
+class Book implements BookInterface, JsonSerializable
 {
     private $id;
     private $name;
@@ -126,5 +126,16 @@ class Book implements BookInterface
     public function getUpdatedAt()
     {
         return $this->updated_at;
+    }
+
+    public function jsonSerialize()
+    {
+        return [
+            'id' => $this->id,
+            'name' => $this->name,
+            'description' => $this->description,
+            'author' => $this->author,
+            'genre' => $this->genre,
+        ];
     }
 }

@@ -1,5 +1,5 @@
 <?php
-require 'helpers.php'; // add what ever helpers to the application
+require 'helpers.php';
 
 App::bind('config', require 'config.php');
 

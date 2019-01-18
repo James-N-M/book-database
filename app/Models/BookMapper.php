@@ -56,9 +56,15 @@ class BookMapper implements BookMapperInterface
         $this->db->prepare($sql)->execute();
     }
 
-    public function getBooks()
+    public function getBooks($query = null)
     {
-        $handle = $this->db->prepare('SELECT * FROM books');
+        // TODO fix this security issue escape these
+        if(!empty($query)) {
+            $handle = $this->db->prepare("SELECT * FROM books WHERE name LIKE '%$query%' OR author LIKE '%$query%' ");
+        } else {
+            $handle = $this->db->prepare("SELECT * FROM books");
+        }
+
         $handle->execute();
         $result = $handle->fetchAll(PDO::FETCH_CLASS, 'Book');
         return $result;

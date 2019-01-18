@@ -7,11 +7,12 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'App' => $baseDir . '/core/App.php',
-    'Book' => $baseDir . '/src/Models/Book.php',
-    'BookController' => $baseDir . '/src/Controllers/BookController.php',
-    'BookInterface' => $baseDir . '/src/Models/BookInterface.php',
-    'BookMapper' => $baseDir . '/src/Models/BookMapper.php',
-    'BookMapperInterface' => $baseDir . '/src/Models/BookMapperInterface.php',
+    'Book' => $baseDir . '/app/Models/Book.php',
+    'BookController' => $baseDir . '/app/Controllers/BookController.php',
+    'BookInterface' => $baseDir . '/app/Models/BookInterface.php',
+    'BookMapper' => $baseDir . '/app/Models/BookMapper.php',
+    'BookMapperInterface' => $baseDir . '/app/Models/BookMapperInterface.php',
+    'BookSearchController' => $baseDir . '/app/Controllers/BookSearchController.php',
     'ComposerAutoloaderInita520f2c8a54119d113878c168aa2c95c' => $vendorDir . '/composer/autoload_real.php',
     'Composer\\Autoload\\ClassLoader' => $vendorDir . '/composer/ClassLoader.php',
     'Composer\\Autoload\\ComposerStaticInita520f2c8a54119d113878c168aa2c95c' => $vendorDir . '/composer/autoload_static.php',
