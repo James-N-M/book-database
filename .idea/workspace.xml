@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="e686385f-1817-40af-a01f-0198bbe55f7e" name="Default Changelist" comment="" />
     <ignored mask=".idea" />
+=======
+    <list default="true" id="e686385f-1817-40af-a01f-0198bbe55f7e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> 8ccc87a73a74048f586d64fd5f660052d9dd72ed
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,8 +127,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Views/insert-image-form.view.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="374">
               <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+=======
+            <state relative-caret-position="238">
+              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+>>>>>>> 8ccc87a73a74048f586d64fd5f660052d9dd72ed
             </state>
           </provider>
         </entry>
@@ -331,12 +342,20 @@
       <workItem from="1548517778644" duration="219000" />
       <workItem from="1548532362941" duration="1550000" />
       <workItem from="1548724363282" duration="48000" />
+<<<<<<< HEAD
       <workItem from="1548812838366" duration="670000" />
+=======
+      <workItem from="1548812838366" duration="238000" />
+>>>>>>> 8ccc87a73a74048f586d64fd5f660052d9dd72ed
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="109138000" />
+=======
+    <option name="totallyTimeSpent" value="108706000" />
+>>>>>>> 8ccc87a73a74048f586d64fd5f660052d9dd72ed
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -692,8 +711,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Views/insert-image-form.view.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="374">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+=======
+        <state relative-caret-position="238">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+>>>>>>> 8ccc87a73a74048f586d64fd5f660052d9dd72ed
         </state>
       </provider>
     </entry>
