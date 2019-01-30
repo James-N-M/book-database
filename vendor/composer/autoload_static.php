@@ -7,7 +7,11 @@ namespace Composer\Autoload;
 class ComposerStaticInita520f2c8a54119d113878c168aa2c95c
 {
     public static $classMap = array (
-        'App' => __DIR__ . '/../..' . '/core/App.php',
+        'App\\Core\\App' => __DIR__ . '/../..' . '/core/App.php',
+        'App\\Core\\Database\\Connection' => __DIR__ . '/../..' . '/core/database/Connection.php',
+        'App\\Core\\Database\\QueryBuilder' => __DIR__ . '/../..' . '/core/database/QueryBuilder.php',
+        'App\\Core\\Request' => __DIR__ . '/../..' . '/core/Request.php',
+        'App\\Core\\Router' => __DIR__ . '/../..' . '/core/Router.php',
         'Book' => __DIR__ . '/../..' . '/app/Models/Book.php',
         'BookController' => __DIR__ . '/../..' . '/app/Controllers/BookController.php',
         'BookInterface' => __DIR__ . '/../..' . '/app/Models/BookInterface.php',
@@ -17,15 +21,11 @@ class ComposerStaticInita520f2c8a54119d113878c168aa2c95c
         'ComposerAutoloaderInita520f2c8a54119d113878c168aa2c95c' => __DIR__ . '/..' . '/composer/autoload_real.php',
         'Composer\\Autoload\\ClassLoader' => __DIR__ . '/..' . '/composer/ClassLoader.php',
         'Composer\\Autoload\\ComposerStaticInita520f2c8a54119d113878c168aa2c95c' => __DIR__ . '/..' . '/composer/autoload_static.php',
-        'Connection' => __DIR__ . '/../..' . '/core/database/Connection.php',
         'Image' => __DIR__ . '/../..' . '/app/Models/Image.php',
         'ImageController' => __DIR__ . '/../..' . '/app/Controllers/ImageController.php',
         'ImageInterface' => __DIR__ . '/../..' . '/app/Models/ImageInterface.php',
         'ImageMapper' => __DIR__ . '/../..' . '/app/Models/ImageMapper.php',
         'ImageMapperInterface' => __DIR__ . '/../..' . '/app/Models/ImageMapperInterface.php',
-        'QueryBuilder' => __DIR__ . '/../..' . '/core/database/QueryBuilder.php',
-        'Request' => __DIR__ . '/../..' . '/core/Request.php',
-        'Router' => __DIR__ . '/../..' . '/core/Router.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

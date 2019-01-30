@@ -6,7 +6,11 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'App' => $baseDir . '/core/App.php',
+    'App\\Core\\App' => $baseDir . '/core/App.php',
+    'App\\Core\\Database\\Connection' => $baseDir . '/core/database/Connection.php',
+    'App\\Core\\Database\\QueryBuilder' => $baseDir . '/core/database/QueryBuilder.php',
+    'App\\Core\\Request' => $baseDir . '/core/Request.php',
+    'App\\Core\\Router' => $baseDir . '/core/Router.php',
     'Book' => $baseDir . '/app/Models/Book.php',
     'BookController' => $baseDir . '/app/Controllers/BookController.php',
     'BookInterface' => $baseDir . '/app/Models/BookInterface.php',
@@ -16,13 +20,9 @@ return array(
     'ComposerAutoloaderInita520f2c8a54119d113878c168aa2c95c' => $vendorDir . '/composer/autoload_real.php',
     'Composer\\Autoload\\ClassLoader' => $vendorDir . '/composer/ClassLoader.php',
     'Composer\\Autoload\\ComposerStaticInita520f2c8a54119d113878c168aa2c95c' => $vendorDir . '/composer/autoload_static.php',
-    'Connection' => $baseDir . '/core/database/Connection.php',
     'Image' => $baseDir . '/app/Models/Image.php',
     'ImageController' => $baseDir . '/app/Controllers/ImageController.php',
     'ImageInterface' => $baseDir . '/app/Models/ImageInterface.php',
     'ImageMapper' => $baseDir . '/app/Models/ImageMapper.php',
     'ImageMapperInterface' => $baseDir . '/app/Models/ImageMapperInterface.php',
-    'QueryBuilder' => $baseDir . '/core/database/QueryBuilder.php',
-    'Request' => $baseDir . '/core/Request.php',
-    'Router' => $baseDir . '/core/Router.php',
 );
