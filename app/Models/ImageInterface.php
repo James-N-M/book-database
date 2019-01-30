@@ -14,6 +14,9 @@ interface ImageInterface
     public function setName($name);
     public function getName();
 
-    public function setImage($image);
-    public function getImage();
+    public function setBookId($bookId);
+    public function getBookId();
+
+    public function setFilePath($path);
+    public function getFilePath();
 }

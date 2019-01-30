@@ -16,7 +16,11 @@
     <h3> Updated at <?= $book->getUpdatedAt() ?></h3>
 
     <a href="delete-book?book=<?=$book->getId() ?>">
-        DELETE BOOK </a>
+        DELETE BOOK </a> <br />
 
     <a href="edit-book?book=<?=$book->getId() ?>">
-        EDIT BOOK </a>
+        EDIT BOOK </a> <br />
+
+    <a href="insert-image?book=<?=$book->getId() ?>">
+        UPLOAD IMAGE
+    </a> <br />

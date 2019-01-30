@@ -10,7 +10,6 @@
         </button>
         <div class="sub-container" id="book-search-results">
             <ul id="book-list">
-                <li>This is a book placeholder</li>
             </ul>
         </div>
     </div>

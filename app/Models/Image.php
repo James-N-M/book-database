@@ -5,7 +5,8 @@ class Image implements ImageInterface
 
     private $id;
     private $name;
-    private $image;
+    private $bookId;
+    private $file_path;
 
     public function setId($id)
     {
@@ -27,14 +28,23 @@ class Image implements ImageInterface
         return $this->name;
     }
 
-    public function setImage($image)
+    public function setBookId($bookId)
     {
-        $this->image = $image;
+        $this->bookId = $bookId;
     }
 
-    public function getImage()
+    public function getBookId()
     {
-        return $this->image;
+        return $this->bookId;
     }
 
+    public function setFilePath($filePath)
+    {
+        $this->file_path = $filePath;
+    }
+
+    public function getFilePath()
+    {
+        return $this->file_path;
+    }
 }
