@@ -1,6 +1,10 @@
 <?php
 
-class Book implements BookInterface, JsonSerializable
+namespace App\Models;
+
+use JsonSerializable;
+
+class Book implements JsonSerializable
 {
     private $id;
     private $name;

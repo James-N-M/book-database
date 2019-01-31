@@ -1,6 +1,8 @@
 <?php
 
-class Image implements ImageInterface
+namespace App\Models;
+
+class Image
 {
 
     private $id;

@@ -3,7 +3,7 @@
     <h1 class="page-header">Search Currently Owned Books</h1>
 
     <div class="sub-container">
-        <input type="text" id="search-book-input">
+        <input type="text" id="search-book-input" class="text-5xl">
         <button class="btn-medium"
                 onclick="searchBooks(document.getElementById('search-book-input').value)" id="search-book-btn">
             Search Books

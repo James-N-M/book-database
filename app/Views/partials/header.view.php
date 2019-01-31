@@ -6,7 +6,7 @@
 
     <title>Book Database</title>
 
-    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" href="/public/css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
 </head>
@@ -14,15 +14,19 @@
 <body>
 <header>
     <nav>
-        <ul id="nav-bar">
-            <div id="nav-bar-left">
-                <a href="/"><li id="nav-bar-logo">Book Database</li></a>
+        <div class="nav-bar px-8 py-4 mb-8">
+            <div>
+                <a href="/">Book Database</a>
             </div>
-            <div id="nav-bar-right">
-                <a href="insert-book"><li id="nav-bar-add-button"><i class="fas fa-plus"></i></li></a>
-                <a href="search"><li id="nav-bar-search"><i class="fas fa-search"></i></li></a>
+            <div class="flex justify-around w-1/3">
+                <div>
+                    <a href="insert-book" class="px-4"><i class="fas fa-plus"></i></a>
+                </div>
+                <div>
+                    <a href="search" class="px-4"><i class="fas fa-search"></i></a>
+                </div>
             </div>
-        </ul>
+        </div>
     </nav>
 </header>
 

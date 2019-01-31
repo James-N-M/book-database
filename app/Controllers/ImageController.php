@@ -1,5 +1,9 @@
 <?php
 
+use App\Core\App;
+use App\Mappers\BookMapper;
+use App\Mappers\ImageMapper;
+
 class ImageController
 {
     protected $imageMapper;
