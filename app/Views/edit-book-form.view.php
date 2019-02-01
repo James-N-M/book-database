@@ -2,7 +2,7 @@
 
 <div class="container">
     <h1 class="page-header">Edit Book</h1>
-    <form action="update-book" method="POST" class="form">
+    <form action="update-book" method="POST" class="flex flex-col items-center">
         <div class="input-box">
             <label class="input-box-label" for="name">Name</label>
             <input class="input-box-input" type="text" id="name" name="name" value="<?= $book->getName() ?>" required>
@@ -42,7 +42,9 @@
             </select>
         </div>
         <input type="number" name="id" value="<?= $book->getId() ?>" hidden>
-        <button class="btn-medium" type="submit">Update Book</button>
+        <button class="bg-blue-dark font-bold hover:bg-blue-darker px-4 py-2 rounded text-white text-3xl" type="submit">
+            Update
+        </button>
     </form>
 
 </div>

@@ -3,14 +3,14 @@
     <h1 class="page-header">Currently Owned Books</h1>
 
     <?php foreach ($booksGroupedByGenres as $group => $books): ?>
-        <section class="genre-section">
-            <div class="genre-section-header">
-                <h2 class="genre-section-header-text"><?= $group ?></h2>
+        <section class="flex flex-col">
+            <div class="text-2xl">
+                <h2><?= $group ?></h2>
             </div>
-            <div class="genre-section-list">
+            <div class="flex flex-wrap">
                 <?php foreach ($books as $book): ?>
                     <a href="show-book?book=<?=$book->getId()?>">
-                        <div class="genre-section-list-book">
+                        <div class="bg-orange-lighter border-2 border-black flex h-64 items-center justify-center m-8 w-64">
                             <?= $book->getName() . "  " . $book->getAuthor() ?>
                         </div>
                     </a>

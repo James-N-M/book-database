@@ -3,6 +3,7 @@
 namespace App\Mappers;
 
 use App\Models\Image;
+use PDO;
 
 class ImageMapper
 {
@@ -22,9 +23,12 @@ class ImageMapper
         return $result;
     }
 
-    public function findById($id)
+    public function findByBookId($id)
     {
-        // TODO: Implement findById() method.
+        $image = $this->db->query("SELECT * FROM images WHERE book_id = $id")
+            ->fetchObject(Image::class);
+
+        return $image;
     }
 
     public function insert(ImageInterface $image)

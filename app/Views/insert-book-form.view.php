@@ -1,6 +1,6 @@
 <div class="container">
     <h1 class="page-header">Add Book To Database</h1>
-    <form action="insert-book" method="POST" class="form">
+    <form action="insert-book" method="POST" class="flex flex-col items-center">
         <div class="input-box">
             <label class="input-box-label" for="name">Name</label>
             <input class="input-box-input" type="text" id="name" name="name" required>
@@ -39,6 +39,8 @@
                 <option value="paper cover">Paper Cover</option>
             </select>
         </div>
-        <button class="btn-medium" type="submit">Create Book</button>
+        <button class="bg-green-dark font-bold hover:bg-green-darker px-4 py-2 rounded text-white text-3xl" type="submit">
+            Create
+        </button>
     </form>
 </div>

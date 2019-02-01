@@ -2,6 +2,8 @@
 
 use App\Core\App;
 use App\Mappers\BookMapper;
+use App\Mappers\ImageMapper;
+use App\Models\Book;
 
 class BookController
 {
@@ -10,6 +12,7 @@ class BookController
     public function __construct()
     {
         $this->bookMapper = new BookMapper(App::get('database'));
+        $this->imageMapper = new ImageMapper(App::get('database'));
     }
 
     public function index()
@@ -26,8 +29,8 @@ class BookController
         $bookId = $_GET['book'];
 
         $book = $this->bookMapper->findById($bookId);
-
-        return view('show-book', ['book' => $book]);
+        $image = $this->imageMapper->findByBookId($bookId);
+        return view('show-book', ['book' => $book, 'image' => $image]);
     }
 
     public function edit()
