@@ -62,15 +62,14 @@ class BookMapper
 
     public function getBooks($query = null)
     {
-        // TODO fix this security issue escape these
         if(!empty($query)) {
-            $handle = $this->db->prepare("SELECT * FROM books WHERE name LIKE '%$query%' OR author LIKE '%$query%' ");
+            $handle = $this->db->prepare("SELECT genre, id, name, author FROM books WHERE name LIKE '%$query%' OR author LIKE '%$query%' ");
         } else {
-            $handle = $this->db->prepare("SELECT * FROM books");
+            $handle = $this->db->prepare("SELECT genre, id, name, author FROM books");
         }
 
         $handle->execute();
-        $result = $handle->fetchAll(PDO::FETCH_CLASS, Book::class);
+        $result = $handle->fetchAll(PDO::FETCH_GROUP|PDO::FETCH_CLASS, Book::class);
         return $result;
     }
 

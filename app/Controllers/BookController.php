@@ -4,6 +4,7 @@ use App\Core\App;
 use App\Mappers\BookMapper;
 use App\Mappers\ImageMapper;
 use App\Models\Book;
+use App\Models\Image;
 
 class BookController
 {
@@ -30,6 +31,11 @@ class BookController
 
         $book = $this->bookMapper->findById($bookId);
         $image = $this->imageMapper->findByBookId($bookId);
+
+        if(!$image) {
+            $image = new Image(); // instead of throwing an exception
+        }
+
         return view('show-book', ['book' => $book, 'image' => $image]);
     }
 

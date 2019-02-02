@@ -21,8 +21,8 @@ class BookSearchController
 
     public function search()
     {
-        $books = $this->bookMapper->getBooks($_GET['q']);
-        // TODO: set up a view that involves the books
-        return view('partials/book-search-results', ['books' => $books]);
+        $booksGroupedByGenres = $this->bookMapper->getBooks($_GET['q']);
+
+        return view('partials/book-search-results', ['booksGroupedByGenres' => $booksGroupedByGenres]);
     }
 }

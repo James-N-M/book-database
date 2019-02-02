@@ -3,6 +3,7 @@
 use App\Core\App;
 use App\Mappers\BookMapper;
 use App\Mappers\ImageMapper;
+use App\Models\Image;
 
 class ImageController
 {

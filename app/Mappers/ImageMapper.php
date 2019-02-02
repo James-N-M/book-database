@@ -31,7 +31,7 @@ class ImageMapper
         return $image;
     }
 
-    public function insert(ImageInterface $image)
+    public function insert(Image $image)
     {
         $handle = $this->db->prepare("INSERT INTO $this->table 
           (name, book_id, file_path)
@@ -45,7 +45,7 @@ class ImageMapper
         $handle->execute();
     }
 
-    public function update(ImageInterface $image)
+    public function update(Image $image)
     {
         // TODO: Implement update() method.
     }

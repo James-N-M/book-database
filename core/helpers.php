@@ -12,7 +12,7 @@ function view($name, $data = [])
 {
     extract($data);
 
-    return require "app/Views/{$name}.view.php";
+    require "app/Views/{$name}.view.php";
 }
 
 // Redirect to a url with a code
