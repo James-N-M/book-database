@@ -2,9 +2,9 @@
 return [
     'database' => [
         'name' => 'books',
-        'username' => 'root',
-        'password' => 'secret',
-        'connection' => 'mysql:host=127.0.0.1',
+        'username' => 'bd490575db277',
+        'password' => 'a55342c7',
+        'connection' => 'us-cdbr-iron-east-03.cleardb.net',
         'options' => [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING
         ]
