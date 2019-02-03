@@ -16,21 +16,27 @@ class BookMapper
 
     public function findById($id)
     {
-        $book = $this->db->query("SELECT * FROM books WHERE id = $id")
-            ->fetchObject(Book::class);
+        $result = $this->db->query("SELECT * FROM books WHERE id = $id")
+            ->fetch(PDO::FETCH_ASSOC);
 
+        $book = new Book();
+        $book->setName($result['name']);
+        $book->setGenre($result['genre']);
+        $book->setDescription($result['description']);
+        $book->setPageCount($result['page_count']);
+        $book->setChapterCount($result['chapter_count']);
+        $book->setCover($result['cover']);
+        $book->setUpdatedAt($result['updated_at']);
         return $book;
     }
 
     public function insert(Book $book)
     {
-        $handle = $this->db->prepare("INSERT INTO $this->table 
-          (name, description, author, genre, page_count, chapter_count, 
-          cover, wishlist, created_at, updated_at)
-          values (:name, :description, :author, :genre, :page_count, :chapter_count,
-          :cover,:wishlist, :created_at, :updated_at)");
-
-        $date = new \DateTime('now');
+        $handle = $this->db->prepare("INSERT INTO $this->table " .
+          "(name, description, author, genre, page_count, chapter_count, " .
+          "cover, wishlist, created_at, updated_at) " .
+          "values (:name, :description, :author, :genre, :page_count, :chapter_count, " .
+          ":cover,:wishlist, :created_at, :updated_at)");
 
         $handle->bindValue(':name', $book->getName(), PDO::PARAM_STR);
         $handle->bindValue(':description', $book->getDescription(), PDO::PARAM_STR);
@@ -40,8 +46,8 @@ class BookMapper
         $handle->bindValue(':chapter_count',$book->getChapterCount(), PDO::PARAM_INT);
         $handle->bindValue(':cover', $book->getCover(), PDO::PARAM_STR);
         $handle->bindValue(':wishlist',$book->getWishList(), PDO::PARAM_INT);
-        $handle->bindValue(':created_at', $date->getTimestamp());
-        $handle->bindValue(':updated_at', $date->getTimestamp());
+        $handle->bindValue(':created_at', $book->getCreatedAt());
+        $handle->bindValue(':updated_at', $book->getUpdatedAt());
 
         $handle->execute();
     }

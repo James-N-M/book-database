@@ -67,6 +67,8 @@ class BookController
         $book->setChapterCount($_POST['chapter_count']);
         $book->setCover($_POST['cover']);
         $book->setWishList(0);
+        $book->setCreatedAt(date("Y-m-d H:i:s"));
+        $book->setUpdatedAt(date("Y-m-d H:i:s"));
 
         $this->bookMapper->insert($book);
 

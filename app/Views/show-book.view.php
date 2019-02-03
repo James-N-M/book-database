@@ -10,8 +10,6 @@
             <h3> Page Count: <?= $book->getPageCount() ?></h3>
             <h3> Chapter Count: <?= $book->getChapterCount() ?></h3>
             <h3> Cover <?= $book->getCover() ?></h3>
-            <h3> Wish List <?= $book->getWishList() ?></h3>
-            <h3> Created at <?= $book->getCreatedAt() ?></h3>
             <h3> Updated at <?= $book->getUpdatedAt() ?></h3>
         </div>
 
