@@ -20,6 +20,7 @@ class BookMapper
             ->fetch(PDO::FETCH_ASSOC);
 
         $book = new Book();
+        $book->setId($result['id']);
         $book->setName($result['name']);
         $book->setGenre($result['genre']);
         $book->setDescription($result['description']);
