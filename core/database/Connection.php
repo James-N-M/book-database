@@ -9,15 +9,15 @@ class Connection
 {
     public static function make($config)
     {
+        $dsn = "mysql:dbname={$config['name']};host={$config['connection']}";
+        $user = $config['username'];
+        $password = $config['password'];
+
         try {
-            return new PDO(
-                $config['connection'] . ';dbname=' . $config['name'],
-                $config['username'],
-                $config['password'],
-                $config['options']
-            );
+            $dbh = new PDO($dsn, $user, $password);
+            return $dbh;
         } catch (PDOException $e) {
-            die($e->getMessage());
+            echo 'Connection failed: ' . $e->getMessage();
         }
     }
 }
