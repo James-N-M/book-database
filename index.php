@@ -1,13 +1,12 @@
 <?php
 
-//require 'vendor/autoload.php';
-//require 'core/bootstrap.php';
-//
-//use App\Core\Router;
-//use App\Core\Request;
-//
-//Router::load('app/routes.php')
-//    ->direct(Request::uri(),$_SERVER['REQUEST_METHOD']);
+require 'vendor/autoload.php';
+require 'core/bootstrap.php';
 
-echo "This is working" ;
+use App\Core\Router;
+use App\Core\Request;
+
+Router::load('app/routes.php')
+    ->direct(Request::uri(),$_SERVER['REQUEST_METHOD']);
+
 
